@@ -58,3 +58,7 @@ const showPets = function (petArray) {
         pets.append(li);
     }
 };
+
+statusButton = addEventListener("click", function() {
+    showPets(allPets);
+});
