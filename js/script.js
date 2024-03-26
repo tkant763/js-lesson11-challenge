@@ -35,3 +35,10 @@ const francine = createPet("Francine", "turtle");
 // baxter.play();
 
 // console.log(clover, baxter);
+
+clover.isTired = 8;
+francine.isTired = 9;
+
+allPets = [sora, clover, baxter, cleo, francine];
+
+console.log(allPets);
